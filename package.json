@@ -1,0 +1,21 @@
+{
+  "name": "unsplash-demo",
+  "scripts": {
+    "lint": "tslint --project tsconfig.json",
+    "build": "tsc"
+  },
+  "engines": {
+    "node": "12"
+  },
+  "main": "src/sample.ts",
+  "dependencies": {
+    "node-fetch": "^2.4.0",
+    "unsplash-js": "^7.0.4"
+  },
+  "devDependencies": {
+    "tslint": "^5.12.0",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^3.8.0"
+  },
+  "private": true
+}
